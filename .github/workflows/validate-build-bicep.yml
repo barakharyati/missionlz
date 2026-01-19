@@ -18,14 +18,12 @@ jobs:
       actions: read
       checks: read
       contents: write
-      deployments: write
       issues: read
       discussions: read
       packages: none
       pages: read
       pull-requests: write
       repository-projects: read
-      security-events: write
       statuses: read
     steps:
       - uses: actions/checkout@v6
